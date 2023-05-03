@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.196 s <<< FAILURE! - in TestSuite
+deleteCountryNegative(Campus.CountryTest)  Time elapsed: 0.385 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <400>.
+
+	at Campus.CountryTest.deleteCountryNegative(CountryTest.java:160)
+
